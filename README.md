@@ -23,14 +23,25 @@ These instructions will help you get a copy of the project up and running on you
    ```
 
 2. **Install Dependencies:**
+   ```bash
    npm install
-
+   ```
 3. **Start Json-Server:**
    Make sure you have JSON Server installed globally. If not, install it using the command below:
+
+   ```bash
    npm install -g json-server
+   ```
 
    Start JSON Server on port 3500 using the command below:
+
+   ```bash
    npx json-server --watch db.json --port 3500
+   ```
 
 4. **Run the App:**
-   In a new terminal window, run the app:npm run start
+   In a new terminal window, run the app:
+
+   ```bash
+   npm run start
+   ```
